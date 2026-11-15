@@ -25,4 +25,4 @@ let names = ['Jordan', 'David', 'Adam', 'Bob']
 
 names.forEach(name => {
     console.log(name + ' is a Player.');
-});
+}); 

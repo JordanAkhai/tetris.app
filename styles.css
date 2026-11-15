@@ -1,12 +1,72 @@
-.grid{
-    width: 200px;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: yellow;
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+
+body {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightblue;
 }
-.grid div{
-    width: 20px;
-    height: 20px;
-    background-color: red;
+.container {
+  margin: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 0px 30px 10px;
+}
+.title {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.score {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.controls {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#start-button,
+#reset-button {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+  border: 1px solid black;
+  padding: 3px 8px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+#start-button:hover,
+#reset-button:hover {
+  background-color: lightgray;
+  color: white;
+}
+#start-button:active,
+#reset-button:active {
+  background-color: darkgray;
+}
+button:focus {
+  outline: none;
+}
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+.grid div {
+  width: 20px;
+  height: 20px;
+  background-color: red;
 }
